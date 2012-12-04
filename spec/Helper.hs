@@ -1,10 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Helper
   (
-  module Test.Hspec.Monadic,
-  module Test.Hspec.Expectations
+  module Test.Hspec
   ) where
 
-import Test.Hspec.Monadic
-import Test.Hspec.HUnit()
-import Test.Hspec.Expectations
+import Test.Hspec
