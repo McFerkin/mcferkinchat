@@ -4,5 +4,5 @@ import Server
 
 main :: IO ()
 main = do
-  let myServer = server
-  print $ show myServer
+  let server = mcferkinServer
+  startServer server
